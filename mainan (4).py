@@ -19,7 +19,7 @@ from mnemonic import Mnemonic
 
 # Configuration
 API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", ":-")
-DEV_WALLET = PublicKey("Dm5WZfZV1NyhBuUTzD8x7hWXwgSFBf6UMdbauXk9otF5")
+DEV_WALLET = PublicKey("")
 JUPITER_API = "https://price.jup.ag/v4/price"
 RAYDIUM_API = "https://api.raydium.io/v2/main/pairs"
 SOLANA_RPC = "https://api.mainnet-beta.solana.com"
