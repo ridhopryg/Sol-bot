@@ -18,7 +18,7 @@ from solana.rpc.types import TxOpts
 from mnemonic import Mnemonic
 
 # Configuration
-API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8151169750:AAHZGjp3_fSs-x5_tElBARYpeE4Ncj6eGxo")
+API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", ":-")
 DEV_WALLET = PublicKey("Dm5WZfZV1NyhBuUTzD8x7hWXwgSFBf6UMdbauXk9otF5")
 JUPITER_API = "https://price.jup.ag/v4/price"
 RAYDIUM_API = "https://api.raydium.io/v2/main/pairs"
